@@ -4,6 +4,7 @@ import { Plus_Jakarta_Sans } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { FacebookPixel } from "@/components/tracking/facebook-pixel"
 import { GoFunnelTracking } from "@/components/tracking/gofunnel-tracking"
+import { MicrosoftClarity } from "@/components/tracking/microsoft-clarity"
 import config from "@/lib/config"
 import "./globals.css"
 
@@ -33,6 +34,7 @@ export default function RootLayout({
       </head>
       <body className={`font-sans antialiased ${plusJakartaSans.className}`}>
         <GoFunnelTracking />
+        <MicrosoftClarity />
         <FacebookPixel />
         {children}
         <Analytics />
