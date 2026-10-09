@@ -185,7 +185,6 @@ const REASON_OPTIONS_V2: Choice[] = [
   { id: "repairs",          label: "Can't afford repairs",                        icon: Hammer },
   { id: "vacant",           label: "Vacant property I need to sell",              icon: Home },
   { id: "urgent-financial", label: "Urgent financial situation not listed above", icon: AlertCircle },
-  { id: "personal",         label: "Personal situation not listed above",         icon: HelpCircle },
   { id: "no-reason",        label: "No reason / seeing what my house is worth",   icon: Search },
 ]
 
